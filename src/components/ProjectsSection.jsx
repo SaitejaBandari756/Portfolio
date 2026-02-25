@@ -3,32 +3,31 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
+    title: "Real Time Object Detection",
     description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    image: "/projects/project.png",
+    tags: ["Python", "OpenCV", "YOLOv8"],
+    // demoUrl: "#",
+    githubUrl: "https://github.com/SaitejaBandari756/Real-Time-Object-Detection-Using-Yolo",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "IntelliDocs",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "An Interactive ai Assistant to summarize the documents provided.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Django", "React", "TailwindCSS", "Tesseract OCR"],
+    // demoUrl: "#", 
+    githubUrl: "https://github.com/SaitejaBandari756/IntelliDocs---AI",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+    title: "BIOME",
+    description:"AI fitness coach that prevents injuries through frame-accurate video analysis.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "FastAPI", "Google ADK"],
+    // demoUrl: "https://biome-frontend-524095675885.us-central1.run.app/",
+    githubUrl: "https://github.com/SaitejaBandari756/Biome",
   },
 ];
 
@@ -74,13 +73,7 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
+                    
                     <a
                       href={project.githubUrl}
                       target="_blank"

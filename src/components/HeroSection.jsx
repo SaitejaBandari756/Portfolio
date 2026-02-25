@@ -36,7 +36,7 @@ export const HeroSection = () => {
               View My Work
             </a>
             <a
-              href="/Sai Teja's Resume.pdf"
+              href="/Bandari Sai Teja's Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
@@ -50,7 +50,7 @@ export const HeroSection = () => {
           <div className="bg-[#0f172a]/40 rounded-[32px] p-2 md:p-3 shadow-2xl border border-white/5">
             {/* keep your image here */}
             <img
-              src="../public/gojo.jpg" // <-- put your image here
+              src="../public/Profilepic.jpg" // <-- put your image here
               alt="Sai Teja"
               className="h-[420px] w-[280px] md:h-[460px] md:w-[310px] object-cover rounded-[28px]"
             />
