@@ -1,6 +1,6 @@
 
 import { ArrowDown } from "lucide-react";
-
+// import profile from "../public/Profilepic.jpg";
 export const HeroSection = () => {
   return (
     <section
@@ -45,7 +45,7 @@ export const HeroSection = () => {
         <div className="flex-1 flex justify-center lg:justify-end">
           <div className="bg-[#0f172a]/40 rounded-[32px] p-2 md:p-3 shadow-2xl border border-white/5">
             <img
-              src="../public/Profilepic.jpg"
+              src="/Profilepic.jpg"
               alt="Sai Teja"
               className="h-[420px] w-[280px] md:h-[460px] md:w-[310px] object-cover rounded-[28px]"
             />
