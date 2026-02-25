@@ -41,7 +41,6 @@ export default function AboutEducationSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
-          {/* Who I Am */}
           <motion.div
             whileHover={{ scale: 1.03 }}
             className="bg-gradient-to-br from-[#141418] to-[#0e0e12] border border-gray-700 rounded-2xl shadow-xl p-8 text-center"
@@ -57,7 +56,6 @@ export default function AboutEducationSection() {
             </p>
           </motion.div>
 
-          {/* What I Do */}
           <motion.div
             whileHover={{ scale: 1.03 }}
             className="bg-gradient-to-br from-[#141418] to-[#0e0e12] border border-gray-700 rounded-2xl shadow-xl p-8 text-center"
@@ -74,7 +72,6 @@ export default function AboutEducationSection() {
             </p>
           </motion.div>
 
-          {/* My Vision */}
           <motion.div
             whileHover={{ scale: 1.03 }}
             className="bg-gradient-to-br from-[#141418] to-[#0e0e12] border border-gray-700 rounded-2xl shadow-xl p-8 text-center"
@@ -89,7 +86,6 @@ export default function AboutEducationSection() {
           </motion.div>
         </div>
 
-        {/* ====== EDUCATION ====== */}
 
 
         <div>
@@ -101,7 +97,6 @@ export default function AboutEducationSection() {
           <Card>
             <CardContent>
               <div className="flex flex-col md:flex-row items-center gap-8">
-                {/* College Logo */}
                 <motion.div
                   className="flex justify-center items-center md:w-1/4"
                   whileHover={{ scale: 1.05 }}
@@ -113,7 +108,6 @@ export default function AboutEducationSection() {
                   />
                 </motion.div>
 
-                {/* College Info */}
                 <div className="flex-1 text-left">
                   <h3 className="text-2xl font-semibold text-gray-100">
                     St. Martin's Engineering College

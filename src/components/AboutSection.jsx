@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import { Briefcase, Code, User } from "lucide-react";
 import hackathon1 from "../assets/hack1.jpeg"; 
-// import hackathon2 from "../assets/pic2.jpg"; 
 const achievements = [
   {
     title: "Secured 2nd place in STARTUPS INDIA IDEAx PITCH FEAST",
@@ -12,14 +11,6 @@ const achievements = [
       "Developed an AI-powered vulnerability detection platform that identifies bugs and security flaws of an organization's software systems.",
     images: [hackathon1],
   },
-  // {
-  //   title: "Won 3rd prize at Solutions Challenge Hackathon",
-  //   date: "February 10, 2025",
-  //   organizer: "Organized by GDGC–CVR College of Engineering",
-  //   description:
-  //     "Designed an innovative solution leveraging technology to address poverty-related challenges through data-driven insights.",
-  //   images: [hackathon2],
-  // },
 ];
 
 export const AboutSection = () => {
@@ -46,7 +37,6 @@ export const AboutSection = () => {
                   <p className="text-emerald-400 mb-1">{achievement.date}</p>
                   <p className="text-gray-400 mb-4">{achievement.organizer}</p>
 
-                  {/* Images */}
                   <div className="flex flex-wrap gap-2 mb-2">
                     {achievement.images.map((img, i) => (
                       <img

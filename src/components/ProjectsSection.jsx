@@ -7,7 +7,6 @@ const projects = [
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project.png",
     tags: ["Python", "OpenCV", "YOLOv8"],
-    // demoUrl: "#",
     githubUrl: "https://github.com/SaitejaBandari756/Real-Time-Object-Detection-Using-Yolo",
   },
   {
@@ -17,7 +16,6 @@ const projects = [
       "An Interactive ai Assistant to summarize the documents provided.",
     image: "/projects/project2.png",
     tags: ["Django", "React", "TailwindCSS", "Tesseract OCR"],
-    // demoUrl: "#", 
     githubUrl: "https://github.com/SaitejaBandari756/IntelliDocs---AI",
   },
   {
@@ -26,7 +24,6 @@ const projects = [
     description:"AI fitness coach that prevents injuries through frame-accurate video analysis.",
     image: "/projects/project3.png",
     tags: ["React", "FastAPI", "Google ADK"],
-    // demoUrl: "https://biome-frontend-524095675885.us-central1.run.app/",
     githubUrl: "https://github.com/SaitejaBandari756/Biome",
   },
 ];

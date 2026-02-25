@@ -63,7 +63,6 @@ export const ContactSection = () => {
           </span>
         </a>
         
-        {/* GitHub */}
         <a
           href="https://github.com/SaitejaBandari756"
           target="_blank"
@@ -79,7 +78,6 @@ export const ContactSection = () => {
           </span>
         </a>
 
-        {/* LeetCode */}
         <a
           href="https://leetcode.com/u/9LGLnbR6rB/"
           target="_blank"
@@ -95,7 +93,6 @@ export const ContactSection = () => {
           </span>
         </a>
 
-        {/* WhatsApp */}
         <a
           href="https://wa.me/917569847387"
           target="_blank"
@@ -111,7 +108,6 @@ export const ContactSection = () => {
           </span>
         </a>
 
-        {/* Email */}
         <a
           href="mailto:saitejabandari49@gmail.com"
           target="_blank"
