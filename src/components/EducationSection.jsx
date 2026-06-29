@@ -30,7 +30,6 @@ export default function AboutEducationSection() {
   return (
     <section id="about" className="py-24 px-6 bg-[#0b0b0f] text-white relative">
       <div className="container mx-auto max-w-6xl">
-        {/* ===== ABOUT ME ===== */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold leading-tight">
             About <span className="text-primary">Me</span>
@@ -48,11 +47,11 @@ export default function AboutEducationSection() {
             <User className="w-10 h-10 mx-auto text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-2">Who I Am</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              I’m <span className="text-sky-400 font-medium">Sai Teja Bandari</span>,
-              a passionate final-year Computer Science student specializing in{" "}
-              <span className="text-sky-400">AI & Machine Learning</span>. I love
-              creating intelligent systems and impactful web applications that
-              merge technology with creativity.
+              I'm <span className="text-sky-400 font-medium">Sai Teja Bandari</span>,
+              a Computer Science graduate with hands-on experience building
+              production-grade applications. I enjoy solving complex backend
+              challenges and turning ideas into{" "}
+              <span className="text-sky-400">scalable, deployable software</span>.
             </p>
           </motion.div>
 
@@ -63,12 +62,11 @@ export default function AboutEducationSection() {
             <Code className="w-10 h-10 mx-auto text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-2">What I Do</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              I specialize in{" "}
-              <span className="text-sky-400">Web Development</span>,{" "}
-              <span className="text-sky-400">Machine Learning</span>, and{" "}
-              <span className="text-sky-400">Data Science</span>. I’ve built
-              projects in Django, React, and Python that focus on automation,
-              AI, and real-world usability.
+              I build{" "}
+              <span className="text-sky-400">full-stack web applications</span> and{" "}
+              <span className="text-sky-400">REST APIs</span> using FastAPI, Django,
+              and React. I work with databases, Docker, and CI/CD pipelines —
+              focusing on clean architecture, performance, and real-world usability.
             </p>
           </motion.div>
 
@@ -79,9 +77,11 @@ export default function AboutEducationSection() {
             <Briefcase className="w-10 h-10 mx-auto text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-2">My Vision</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              My goal is to become a skilled software engineer contributing to
-              innovative AI-driven solutions. I’m continuously learning and
-              exploring technologies that make a difference in people’s lives.
+              I aim to grow as a{" "}
+              <span className="text-sky-400">software engineer</span> who builds
+              systems that scale. I'm actively seeking opportunities where I can
+              contribute to engineering teams, ship quality code, and keep
+              growing with every problem I solve.
             </p>
           </motion.div>
         </div>
@@ -90,10 +90,10 @@ export default function AboutEducationSection() {
 
         <div>
           <div className="max-w-5xl mx-auto px-6">
-         <div className="flex-1 text-left">
-             <h2 className="text-3xl font-bold text-sky-400 mb-4">Education</h2>
-         </div>
-        </div>
+            <div className="flex-1 text-left">
+              <h2 className="text-3xl font-bold text-sky-400 mb-4">Education</h2>
+            </div>
+          </div>
           <Card>
             <CardContent>
               <div className="flex flex-col md:flex-row items-center gap-8">
@@ -116,7 +116,7 @@ export default function AboutEducationSection() {
                     Bachelor of Technology in CSE (AI & ML)
                   </p>
                   <p className="text-emerald-400 font-medium mt-2">
-                    2022 - 2026 | CGPA: 8.03 / 10
+                    2022 - 2026 | CGPA: 8.17 / 10
                   </p>
 
                   <p className="text-gray-300 mt-6 font-medium">

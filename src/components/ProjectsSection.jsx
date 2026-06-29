@@ -3,11 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Real Time Object Detection",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project.png",
-    tags: ["Python", "OpenCV", "YOLOv8"],
-    githubUrl: "https://github.com/SaitejaBandari756/Real-Time-Object-Detection-Using-Yolo",
+    title: "TrimTrack ",
+    description: "A production-grade URL shortener with real-time click analytics, QR code generation, and ML-based threat detection.",
+    image: "/projects/project1.png",
+    tags: ["FastAPI", "Python", "PostgreSQL", "Redis", "Docker"],
+    githubUrl: "https://github.com/SaitejaBandari756/TrimTrack",
+    demoUrl: "https://trimtrack-ql05.onrender.com/"
   },
   {
     id: 2,
@@ -17,21 +18,35 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["Django", "React", "TailwindCSS", "Tesseract OCR"],
     githubUrl: "https://github.com/SaitejaBandari756/IntelliDocs---AI",
+    demoUrl: "#"
   },
   {
     id: 3,
     title: "BIOME",
-    description:"AI fitness coach that prevents injuries through frame-accurate video analysis.",
+    description: "AI fitness coach that prevents injuries through frame-accurate video analysis.",
     image: "/projects/project3.png",
     tags: ["React", "FastAPI", "Google ADK"],
     githubUrl: "https://github.com/SaitejaBandari756/Biome",
+    demoUrl: "#"
+
+  },
+  {
+    id: 4,
+    title: "Real Time Object Detection",
+    description: "A beautiful landing page app using React and Tailwind.",
+    image: "/projects/project.png",
+    tags: ["Python", "OpenCV", "YOLOv8"],
+    githubUrl: "https://github.com/SaitejaBandari756/Real-Time-Object-Detection-Using-Yolo",
+    demoUrl: "#"
+
+
   },
 ];
 
 export const ProjectsSection = () => {
   return (
     <section id="projects" className="py-24 px-4 relative">
-      <div className="container mx-auto max-w-5xl">
+      <div className="container mx-auto max-w-7xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
           Featured <span className="text-primary"> Projects </span>
@@ -41,7 +56,7 @@ export const ProjectsSection = () => {
           Showcasing my latest work and innovations.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {projects.map((project, key) => (
             <div
               key={key}
@@ -70,7 +85,7 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    
+
                     <a
                       href={project.githubUrl}
                       target="_blank"
@@ -78,6 +93,15 @@ export const ProjectsSection = () => {
                     >
                       <Github size={20} />
                     </a>
+                    {project.demoUrl && project.demoUrl !== "#" && (
+                      <a
+                        href={project.demoUrl}
+                        target="_blank"
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <ExternalLink size={20} />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

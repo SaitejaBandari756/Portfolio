@@ -1,6 +1,5 @@
 
 import { ArrowDown } from "lucide-react";
-// import profile from "../public/Profilepic.jpg";
 export const HeroSection = () => {
   return (
     <section
@@ -23,9 +22,9 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl opacity-0 animate-fade-in-delay-3 mx-auto lg:mx-0">
-            Final Year Computer Science student specializing in AI & ML,
-            aspiring to be a software developer driven by innovation and
-            impactful coding.
+            Computer Science graduate specializing in AI & ML,
+            passionate about building scalable systems and solving
+            real-world problems through impactful software.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-delay-4 justify-center lg:justify-start">
@@ -33,7 +32,7 @@ export const HeroSection = () => {
               View My Work
             </a>
             <a
-              href="/Bandari Sai Teja's Resume.pdf"
+              href="/Bandari_SaiTeja_Software_Engineer_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
