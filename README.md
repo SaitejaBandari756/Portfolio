@@ -10,7 +10,7 @@
 
   <h3 align="center">Personal portfolio showcasing projects, skills, and experience</h3>
 
-  <a href="https://your-portfolio.onrender.com">🌐 Live Site</a> •
+  <a href="https://saiteja-9xpy.onrender.com">🌐 Live Site</a> •
   <a href="https://github.com/SaitejaBandari756">GitHub</a> •
   <a href="https://linkedin.com/in/sai-teja-bandari/">LinkedIn</a>
 
